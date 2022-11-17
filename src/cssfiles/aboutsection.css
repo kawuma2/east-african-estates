@@ -1,0 +1,84 @@
+/* -------------- typography --------------- */
+
+
+
+.about-section-container {
+    width: 95%;
+    /*max-width: 1080px;*/
+    margin: 0 auto;
+    
+}
+
+.about-section-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1em 0;
+}
+
+.first-column {
+    width: 50%;
+}
+
+.first-column h3{
+    font-size: 1.4rem;
+    font-family: poppins;
+    width: 40%;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid rgb(20, 73, 20);
+}
+
+.first-column h5{
+    font-size: 1.3rem;
+    padding-top: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-column p{
+    font-size: 0.95rem;
+    color: darkslategrey;
+    padding-bottom: 1em;
+}
+
+.first-column .more-about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    padding-top: 0;
+    color: rgb(63, 22, 22);
+    font-weight: bold;
+}
+
+.first-column .more-about:hover{
+    color: rgb(24, 24,173);
+}
+
+
+.second-column {
+    width: 45%;
+}
+
+.second-column img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.col1-bg {
+    /*background-color: bisque;*/
+}
+
+.col2-bg {
+    /*background-color: rgb(7, 7, 7);*/
+}
+
+@media (max-width: 600px) {
+    .about-section-columns {
+        flex-direction: column;
+    }
+    .first-column {
+        width: 100%;
+    }
+
+    .second-column {
+        width: 100%;
+    }
+}

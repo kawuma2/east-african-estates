@@ -1,0 +1,17 @@
+
+
+.container {
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+}
+
+img {
+    width: 100%;
+}
+
+.container p {
+    font-size: 0.9rem;
+  
+}
