@@ -1,13 +1,12 @@
 import React from 'react'
 import BlogList from './BlogList'
 import { BlogConsumer } from '../blogcontext'
-import Blogcomponent from './Blogcomponent'
 
 export default function Blogscontainer() {
   return (
     <BlogConsumer>
         {(value) => {
-            const {blogs, featuredblogs} = value;
+            const {blogs} = value;
             return (
                 <>
                 <BlogList blogs={blogs}/>
