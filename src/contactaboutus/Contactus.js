@@ -28,7 +28,7 @@ export default function Contactus() {
               <span><MdOutlineEmail /></span>
               <h4>Email</h4>
             <h5>eafricanestates</h5>
-            <a href='mailto:eafricanesates@gmail.com' target="_blank">send a message</a>
+            <a href='mailto:eafricanestates@gmail.com' target="_blank">send a message</a>
           </article>
           <article className='article-info2'>
             <span><BsWhatsapp /></span>
